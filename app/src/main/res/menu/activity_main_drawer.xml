@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pricipal"
+            android:icon="@drawable/ic_baseline_inbox_24"
+            android:title="@string/menu_PRICIPAL" />
+        <item
+            android:id="@+id/nav_servisos"
+            android:icon="@drawable/ic_baseline_assignment_24"
+            android:title="@string/menu_sErvisos" />
+        <item
+            android:id="@+id/nav_clientes"
+            android:icon="@drawable/ic_baseline_people_alt_24"
+            android:title="@string/menu_CLIENTE" />
+    </group>
+   <item android:title="entre em contato">
+    <menu>
+        <item
+            android:id="@+id/nav_contatos"
+            android:icon="@drawable/ic_baseline_email_24"
+            android:title="@string/menu_CONTATOS" />
+        <item
+            android:id="@+id/nav_SOBRE"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/menu_sobre" />
+
+    </menu>
+   </item>
+</menu>
