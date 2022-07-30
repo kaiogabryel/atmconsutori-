@@ -86,6 +86,7 @@ String descricao = "Quero te ver de novo, poder te abraçar forte e fazer cara d
        .addItem(VERSAO)
        .create();
 
+
         // Inflate the layout for this fragment
         //return inflater.inflate(R.layout.fragment_sobre, container, false);
 
